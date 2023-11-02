@@ -14,7 +14,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 1rem;
-  box-shadow: 2px 2px 3px rgb(240, 245, 253);
+  box-shadow: 0 3rem 6rem hsla(224, 82%, 58%, 0.15);
 }
 .result-container {
   cursor: default;
