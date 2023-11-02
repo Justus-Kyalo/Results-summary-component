@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+  /* color: #fff; */
+}
+
+.main-container {
+  width: 440px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 3px rgb(240, 245, 253);
+}
+.result-container {
+  cursor: default;
+  width: 220px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(11, 0, 230) 0%,
+    rgb(32, 32, 203) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(8, 90, 246, 0.9815242494226328) 0%,
+    rgb(13, 61, 164) 79%
+  );
+}
+.rineresult-conta .title {
+  color: rgb(159, 142, 243);
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.result-container .great {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.result-container p {
+  text-align: center;
+}
+.score {
+  border-radius: 50%;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    360deg,
+    rgb(9, 45, 75) 0%,
+    rgb(22, 16, 145) 0%,
+    rgb(68, 86, 204) 0%,
+    rgba(26, 42, 154, 1) 0%,
+    rgba(24, 92, 220, 0.982) 100%,
+    rgb(42, 83, 171) 100%
+  );
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.score span {
+  font-size: 0.6rem;
+}
+.summary-container {
+  width: 220px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  cursor: default;
+}
+.summary {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  text-transform: capitalize;
+}
+
+.right-item {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.right-item span {
+  color: rgb(177, 171, 181);
+  font-size: 0.75rem;
+}
+
+.reaction {
+  background: rgb(255, 246, 245);
+}
+.reaction .left-item {
+  color: rgb(242, 119, 125);
+  display: flex;
+  align-items: center;
+}
+.memory {
+  background: rgb(255, 251, 242);
+}
+.memory .left-item {
+  color: rgb(244, 196, 83);
+  display: flex;
+  align-items: center;
+}
+.verbal {
+  background-color: rgb(242, 251, 250);
+}
+.verbal .left-item {
+  color: rgb(86, 205, 175);
+  display: flex;
+  align-items: center;
+}
+.visual {
+  background-color: rgb(243, 243, 253);
+}
+.visual .left-item {
+  display: flex;
+  align-items: center;
+  color: rgb(97, 104, 235);
+}
+.button {
+  text-align: center;
+  background: rgb(49, 59, 88);
+  padding: 0.3rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .main-container {
+    height: 100vh;
+    position: static;
+    top: 0;
+    left: 50%;
+    transform: translate(0%, 0%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+  }
+
+  .result-container {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  .result-container .title {
+    font-size: 1.7rem;
+  }
+  .result-container .great {
+    font-size: 2rem;
+  }
+  .result-container p {
+    font-size: 1.3rem;
+  }
+  .score {
+    width: 12rem;
+    height: 12rem;
+  }
+  .score h1 {
+    font-size: 4rem;
+  }
+  .score span {
+    font-size: 1.1rem;
+  }
+  .result-container,
+  .summary-container {
+    width: 90vw;
+    gap: 1.7rem;
+  }
+  .button {
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+  }
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .summary {
+    font-size: 1.5rem;
+  }
+  .right-item {
+    font-size: 1.25rem;
+  }
+  .right-item span {
+    font-size: 1.15rem;
+  }
+  .left-item {
+    font-size: 1.5rem;
+  }
+}
