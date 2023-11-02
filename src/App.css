@@ -26,14 +26,10 @@
   gap: 1rem;
   padding: 1.2rem;
   color: #fff;
-  background: rgb(2, 0, 36);
   background: linear-gradient(
-    180deg,
-    rgb(11, 0, 230) 0%,
-    rgb(32, 32, 203) 0%,
-    rgba(0, 212, 255, 1) 0%,
-    rgba(8, 90, 246, 0.9815242494226328) 0%,
-    rgb(13, 61, 164) 79%
+    hsl(252, 100%, 67%),
+    hsl(252, 100%, 63%),
+    hsl(241, 81%, 54%)
   );
 }
 .rineresult-conta .title {
@@ -51,15 +47,10 @@
 }
 .score {
   border-radius: 50%;
-  background: rgb(0, 212, 255);
   background: linear-gradient(
-    360deg,
-    rgb(9, 45, 75) 0%,
-    rgb(22, 16, 145) 0%,
-    rgb(68, 86, 204) 0%,
-    rgba(26, 42, 154, 1) 0%,
-    rgba(24, 92, 220, 0.982) 100%,
-    rgb(42, 83, 171) 100%
+    hsla(256, 71%, 46%, 1),
+    hsla(241, 71%, 46%, 0.3),
+    hsla(241, 71%, 46%, 0)
   );
   width: 7rem;
   height: 7rem;

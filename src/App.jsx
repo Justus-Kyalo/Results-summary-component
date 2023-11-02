@@ -35,7 +35,7 @@ function App() {
               memory
             </span>
             <span className="right-item">
-              80/<span>100</span>
+              92/<span>100</span>
             </span>
           </div>
           <div className="verbal">
@@ -44,7 +44,7 @@ function App() {
               verbal
             </span>
             <span className="right-item">
-              80/<span>100</span>
+              61/<span>100</span>
             </span>
           </div>
           <div className="visual">
@@ -53,7 +53,7 @@ function App() {
               visual
             </span>
             <span className="right-item">
-              80/<span>100</span>
+              73/<span>100</span>
             </span>
           </div>
           <div className="button">continue</div>
